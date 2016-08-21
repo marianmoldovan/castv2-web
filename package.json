@@ -1,0 +1,26 @@
+{
+  "name": "castv2-web",
+  "version": "0.0",
+  "description": "Castv2 client to send web content to a cast receive app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://marianmoldovan@github.com/marianmoldovan/castv2-web.git"
+  },
+  "keywords": [
+    "cast",
+    "chromecast"
+  ],
+  "author": "Marian C. Moldovan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marianmoldovan/castv2-web/issues"
+  },
+  "homepage": "https://github.com/marianmoldovan/castv2-web#readme",
+  "dependencies": {
+    "castv2-client": "^1.1.2"
+  }
+}
