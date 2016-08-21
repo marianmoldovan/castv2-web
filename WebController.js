@@ -12,11 +12,11 @@ function WebController(client, sourceId, destinationId) {
 
 util.inherits(WebController, RequestResponseController);
 
-WebController.prototype.load = function(uri) {
+WebController.prototype.load = function(uri, refreshRate) {
   var data = {
     type: 'load',
     url: uri,
-    refresh: 0
+    refresh: refreshRate || 0
   };
   this.request(data);
 };
