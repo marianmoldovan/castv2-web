@@ -24,7 +24,7 @@ function ondeviceup(host) {
     console.log('Connected');
     client.launch(Web, function(err, manager) {
       console.log('Dashboard Launched');
-      manager.load('https://github.com/marianmoldovan/castv2-web');
+      manager.load('https://www.npmjs.com/package/castv2-web');
     });
   });
 }
