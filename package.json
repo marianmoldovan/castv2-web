@@ -1,6 +1,6 @@
 {
   "name": "castv2-web",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Castv2 client to send web content to a cast receive app",
   "main": "index.js",
   "scripts": {
