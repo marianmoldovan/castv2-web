@@ -2,7 +2,7 @@ var util                        = require('util');
 var RequestResponseController   = require('castv2-client').RequestResponseController;
 
 function WebController(client, sourceId, destinationId) {
-  RequestResponseController.call(this, client, sourceId, destinationId, 'urn:x-cast:com.boombatower.chromecast-dashboard');
+  RequestResponseController.call(this, client, sourceId, destinationId, 'urn:x-cast:' + WebController.APP_URN);
   this.once('close', onclose);
   var self = this;
   function onclose() {
