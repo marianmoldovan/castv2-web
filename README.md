@@ -34,6 +34,12 @@ function ondeviceup(host) {
 You can set a refresh rate, so that the receiver will update every X seconds
 `manager.load(url, 10`);
 
+Now thanks to [@WeeJeWel](https://github.com/WeeJeWel) you can use a dynamic URN
+```
+Web.APP_ID = 'ABCD';
+Web.APP_URN = 'com.my.domain'
+```
+
 ### Limitations
 Note that this receiver has a limitation around the frame-ancestors directive and X-Frame-Options header. So the webpages that don't like being embeded in a ifram won't show.
 
